@@ -1,0 +1,20 @@
+Mineria de Datos
+
+Fernando De Freitas
+Iñaki De Tejada
+Francisco Vergara
+
+Categorizador de TEGs mediante minería de textos
+
+	El programa toma el archivo rawinput.txt como entrada, lo procesa y limpia y utiliza los datos obtenidos para generar el modelo, generando 
+tambien el archivo train.arff con los datos
+
+	Los archivos temp.txt y singleTest.arff son temporales y pueden borrarse de manera segura. Siempre debe haber un archivo rawinput.txt con el 
+conjunto de datos inicial.
+
+	Instrucciones:
+		1.Ejecutar proyMDD.jar
+		2. Especificar datos de TEG a evaluar y marcar la casilla single ó
+		3. Reemplazar el archivo test.arff por un archivo con la información de los TEGs a evaluar (en el formato presente en test y train)
+
+	Se puede modificar el archivo rawinput.txt con datos nuevos que no hayan sido preprocesados.
